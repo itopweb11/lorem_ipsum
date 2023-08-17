@@ -67,3 +67,19 @@
     }
   }
 }
+
+
+//media
+
+@media screen and (max-width: 530px) {
+  .dropDownMenu {
+    margin-right: -40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .dropDownMenu {
+    margin-right: 9px;
+  }
+}
+

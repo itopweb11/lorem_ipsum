@@ -81,17 +81,31 @@
 
 @media screen and (max-width: 530px) {
   .order__content {
-    max-width: 290px;
+    max-width: 343px;
   }
 
   .order__content_title h2 {
-    font-size: 16px;
+    font-size: 23px;
     text-align: center;
     margin-left: 0;
   }
 
   .order__content_title {
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .order__content_title h2 {
+    font-size: 24px;
+  }
+
+  .order__content {
+    max-width: 290px;
+  }
+
+  .order__content_title p {
+    font-size: 22px;
   }
 }
 

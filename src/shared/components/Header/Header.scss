@@ -170,8 +170,15 @@
 
 @media screen and (max-width: 550px) {
   .header__content {
-    max-width: 290px;
+    max-width: 345px;
     min-height: 60px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .header__content {
+    max-width: 290px;
 
     &_img {
       width: 200px;
