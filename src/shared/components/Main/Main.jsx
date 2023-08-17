@@ -5,9 +5,7 @@ const Main = () => {
         <div className="main">
             <div className="main__content">
                 <div className="main__content_title">
-                    <h1>
-                        Lorem ipsum <span>dolor sit <br/> ametconsectetur</span> adipiscing
-                    </h1>
+                    <h1>Lorem ipsum <span>dolor sit <br/> ametconsectetur</span> adipiscing</h1>
                 </div>
                 <div className="main__content_subtitle">
                     <h4>At vero eos et accusamus et iusto odio dignissimos ducimus!</h4>
