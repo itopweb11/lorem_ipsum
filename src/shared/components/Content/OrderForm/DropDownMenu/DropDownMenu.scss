@@ -70,8 +70,14 @@
 
 
 //media
-
 @media screen and (max-width: 530px) {
+  .dropDownMenu {
+    max-width: 340px;
+  }
+}
+
+
+@media screen and (max-width: 460px) {
   .dropDownMenu {
     max-width: 282px;
   }

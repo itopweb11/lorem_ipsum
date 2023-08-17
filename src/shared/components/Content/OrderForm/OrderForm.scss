@@ -175,12 +175,12 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 @media screen and (max-width: 530px) {
-  .orderForm__inputs_range_file {
-    width: 275px;
+  .orderForm__inputs input {
+    max-width: 323px;
   }
 
-  .orderForm__inputs input {
-    max-width: 264px;
+  .orderForm__inputs_range_file {
+    width: 339px;
   }
 
   .orderForm__inputs_range_input {
@@ -189,6 +189,21 @@ input[type=range]::-webkit-slider-thumb {
 
   .orderForm__inputs_range_input_desc p {
     font-size: 13px;
+  }
+
+  .orderForm {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 460px) {
+  .orderForm__inputs input {
+    max-width: 264px;
+  }
+
+  .orderForm__inputs_range_file {
+    width: 275px;
   }
 }
 
