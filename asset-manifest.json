@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lorem_ipsum/static/css/main.9692f99f.css",
+    "main.css": "/lorem_ipsum/static/css/main.f8a021c4.css",
     "main.js": "/lorem_ipsum/static/js/main.43352575.js",
     "static/js/787.a526e8cd.chunk.js": "/lorem_ipsum/static/js/787.a526e8cd.chunk.js",
     "static/media/main.png": "/lorem_ipsum/static/media/main.7e0c390ecb87485a8591.png",
     "static/media/Layer.png": "/lorem_ipsum/static/media/Layer.2d47c01f550bfc6abbb3.png",
     "index.html": "/lorem_ipsum/index.html",
-    "main.9692f99f.css.map": "/lorem_ipsum/static/css/main.9692f99f.css.map",
+    "main.f8a021c4.css.map": "/lorem_ipsum/static/css/main.f8a021c4.css.map",
     "main.43352575.js.map": "/lorem_ipsum/static/js/main.43352575.js.map",
     "787.a526e8cd.chunk.js.map": "/lorem_ipsum/static/js/787.a526e8cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9692f99f.css",
+    "static/css/main.f8a021c4.css",
     "static/js/main.43352575.js"
   ]
 }
