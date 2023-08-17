@@ -1,0 +1,30 @@
+.orderButton {
+  max-width: 370px;
+  width: 100%;
+  margin-top: 54px;
+
+  button {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: #3E9CDC;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      border: 1px solid #0047f4;
+      background: #0770ba;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .orderButton {
+    max-width: 290px;
+  }
+}

@@ -1,0 +1,126 @@
+.orderIcons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 79px 0 0 113px;
+  width: 100%;
+
+  &__items {
+
+    &:last-child {
+      .orderIcons__items_item_dot {
+        display: none;
+      }
+    }
+
+
+    &_desc {
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      margin-left: -44px;
+      margin-top: 22px;
+      max-width: 193px;
+      width: 100%;
+      cursor: pointer;
+
+      &:hover {
+        color: #3e9cdc;
+      }
+    }
+
+    &_item {
+      max-width: 217px;
+      width: 100vh;
+      display: flex;
+      justify-content: space-between;
+
+      &_dot {
+        height: 6px;
+        margin-top: 47px;
+        margin-right: -8px;
+      }
+
+      &_icon {
+        max-width: 100px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../../../../img/Ellipse.png");
+        background-repeat: no-repeat;
+        border-radius: 100%;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover {
+          box-shadow: 0 0 5px 5px #3e9cdc;
+        }
+      }
+    }
+  }
+}
+
+
+//media
+
+@media screen and (max-width: 1285px) {
+  .orderIcons {
+    margin: 79px 0 0 0;
+  }
+
+  .orderIcons__items_item_dot {
+    display: none;
+  }
+
+  .orderIcons__items_item {
+    max-width: 100px;
+  }
+
+  .orderIcons__items_desc {
+    margin-left: 0;
+    max-width: 150px;
+  }
+
+  .orderIcons__items {
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .orderIcons__items_item {
+    max-width: 110px;
+    width: 100%;
+  }
+
+  .orderIcons {
+    max-width: 1170px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+
+@media screen and (max-width: 830px) {
+  .orderIcons {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .orderIcons__items_desc {
+    max-width: 300px;
+  }
+
+  .orderIcons__items {
+    max-width: 300px;
+    margin-top: 50px;
+  }
+}

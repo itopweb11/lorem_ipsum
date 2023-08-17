@@ -1,0 +1,69 @@
+.dropDownMenu {
+  max-width: 371px;
+  width: 100%;
+  position: relative;
+
+  &__select {
+    display: flex;
+    align-items: center;
+
+    &_input {
+      caret-color: transparent;
+    }
+
+    &_img {
+      margin-left: -31px;
+      transition: .5s;
+
+      &_active {
+        transform: rotateX(180deg);
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+    border: 1px solid #3D4050;
+    background: rgba(39, 39, 51, 0.90);
+    height: 180px;
+    overflow: auto;
+    display: none;
+
+    &::-webkit-scrollbar {
+      width: 7px;               /* ширина всей полосы прокрутки */
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #3D4050;        /* цвет зоны отслеживания */
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #3E9CDC;    /* цвет бегунка */
+      border-radius: 20px;       /* округлось бегунка */
+    }
+
+    span {
+      color: #FFF;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 34px;
+      cursor: pointer;
+      margin-left: 10px;
+
+      &:hover {
+        color: #42A9ED;
+      }
+    }
+
+    &_active {
+      display: flex;
+      z-index: 1;
+    }
+  }
+}

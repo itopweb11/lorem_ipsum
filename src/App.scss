@@ -1,0 +1,26 @@
+.app {
+  background-image: url("./img/main.png");
+  background-size: 100% 48%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 830px) {
+  .app {
+    background-size: 100% 29%;
+  }
+}
+
+
+@media screen and (max-width: 680px) {
+  .app {
+    background-size: 100% 20%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .app {
+    background-size: 100% 17%;
+  }
+}
+
+

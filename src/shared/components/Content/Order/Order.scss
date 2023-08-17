@@ -1,0 +1,98 @@
+.order {
+  background: #272733;
+  background-image: url("../../../../img/Layer.png");
+
+  &__content {
+    padding: 0 15px;
+    max-width: 1170px;
+    width: 100%;
+    min-height: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_title {
+      margin-top: 116px;
+
+      h2 {
+        color: #FFF;
+        font-size: 36px;
+        margin-left: 62px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+        span {
+          color: #3E9CDC;
+        }
+      }
+
+      p {
+        color: #BBB;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+
+//main
+
+@media screen and (max-width: 1200px) {
+  .order__content {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .order__content {
+    max-width: 800px;
+  }
+}
+
+
+@media screen and (max-width: 830px) {
+  .orderButton {
+    margin-bottom: 30px;
+  }
+  .app {
+    background-image: url(http://localhost:3000/static/media/main.7e0c390….png);
+    background-size: 100% 48%;
+    background-repeat: no-repeat;
+  }
+
+  .order__content {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .order__content {
+    max-width: 500px;
+  }
+
+  .order__content_title p {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .order__content {
+    max-width: 290px;
+  }
+
+  .order__content_title h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .order__content_title {
+    margin-top: 50px;
+  }
+}
+
+
