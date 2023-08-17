@@ -73,13 +73,9 @@
 
 @media screen and (max-width: 530px) {
   .dropDownMenu {
-    margin-right: -40px;
+    max-width: 282px;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .dropDownMenu {
-    margin-right: 9px;
-  }
-}
+
 

@@ -170,11 +170,16 @@
 
 @media screen and (max-width: 530px) {
   .header__content {
-    max-width: 345px;
+    max-width: 432px;
     min-height: 60px;
   }
 }
 
+@media screen and (max-width: 460px) {
+  .header__content {
+    max-width: 345px;
+  }
+}
 
 @media screen and (max-width: 375px) {
   .header__content {

@@ -192,3 +192,9 @@ input[type=range]::-webkit-slider-thumb {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .orderForm {
+    width: 100%;
+  }
+}
+

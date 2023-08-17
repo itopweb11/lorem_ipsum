@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 530px) {
   .main__content {
-    max-width: 345px;
+    max-width: 430px;
     min-height: 400px;
   }
 
@@ -175,6 +175,13 @@
     margin-top: 80px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .main__content {
+    max-width: 345px;
+  }
+}
+
 
 @media screen and (max-width: 375px) {
   .main__content {
